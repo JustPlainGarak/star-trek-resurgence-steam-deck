@@ -7,7 +7,7 @@ At its default settings, Star Trek Resurgence runs pretty poorly on the Steam De
 3. Navigate to the config file location.
     - If the game is installed on the internal storage, you should be able to find the config file here: ```$HOME/.steam/steam/steamapps/compatdata/2653940/pfx/drive_c/users/steamuser/AppData/Local/StarTrekGame/Saved/Config/WindowsNoEditor/```
     - If you have the game stored on SD card, it will be at a similar path but from the root of your SD card. Usually, the SD card is mounted as ```primary``` and can be found on the left sidebar: ```/primary/steamapps/compatdata/2653940/pfx/drive_c/users/steamuser/AppData/Local/StarTrekGame/Saved/Config/WindowsNoEditor/```
-4. Either download and replace the file ```GameUserSettings.ini``` from my github (if you do, EXAMINE THE FILE CONTENTS FIRST, it's just good security practice!) or copy and change the contents of the config file you wish to alter.
+4. Either download and replace the file [```GameUserSettings.ini```](https://raw.githubusercontent.com/JustPlainGarak/star-trek-resurgence-steam-deck/main/GameUserSettings.ini) from my github (if you do, EXAMINE THE FILE CONTENTS FIRST, it's just good security practice!) or copy and change the contents of the config file you wish to alter.
     - The quality settings range from 0-3, 0 meaning Low and 3 meaning Ultra.
     - I have found that setting ```sg.ShadowQuality``` at anything above 0 absolutely tanks performance.
     - For smoothness, I highly recommend using the ```sg.ResolutionQuality=80.000000, bUseVSync=True, FrameRateLimit=30.000000``` settings from my config file, whatever you choose to do.
